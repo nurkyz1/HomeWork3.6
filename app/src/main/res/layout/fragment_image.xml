@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageFragment">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       android:id="@+id/cv_image"
+       android:src="@drawable/photo"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Одним из самых миловидных и удивительных животных на планете является панда. Это забавное создание, выделяющееся своей медвежьей неуклюжестью, привлекает к себе особое внимание не только со стороны детей, но и взрослой категории людей. Всего в мире встречается две разновидности данных животных. Выясним, где обитает прекрасная пушистая панда, на каком материке, а также много всего интересного и загадочного о ней.
+
+"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"/>
+
+</FrameLayout>
